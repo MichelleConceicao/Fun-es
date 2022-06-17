@@ -21,7 +21,12 @@ function dados(nome, idade, estiloMusical){
 dados("Michelle", "32", "Rock");
 
 function gosto(filme, musica){
-    console.log(filme, musica);
+    console.log(`gosto do filme ${filme} e da música.${musica}`);
 }
 
 gosto("O Menino do Pijama Listrado", "trevo");
+
+function triplo(numero){
+    return numero *3
+}
+console.log(triplo(3));
